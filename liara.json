@@ -1,0 +1,9 @@
+{
+  "platform": "docker",
+  "app": "mohammad-reza-portfolio",
+  "port": 80,
+  "healthCheck": {
+    "path": "/",
+    "port": 80
+  }
+}
